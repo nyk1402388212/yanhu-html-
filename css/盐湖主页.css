@@ -59,8 +59,6 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 	background-image:url(../img/banner1.jpg) ;
 }
 
-
-
 /*@keyframes jiantouz{
 	0%{left: 300px;top:270px;opacity: 0;}
 	25%{left:250px;top:270px;opacity: 0.25;}
@@ -68,7 +66,6 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 	75%{left:150px;top:270px;opacity: 0.75;}
 	100%{left:125px;top: 270px;opacity: 1;}
 }*/
-
 
 /*左箭头*/
 #change2{
@@ -111,31 +108,28 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 	text-decoration: none;
 	color:#F2F4F6 ;
 }
+
 /*1.2.3.*/
 #imgs_ul{
 	position: absolute;
-	padding-right: 5px;
 	left: 700px;
 	top: 570px;
-	text-align: center;
+	/*background-color: red;*/
+	list-style: none;
+	width: 100%;
+	height: 25px;
 }
 
 #imgs_ul li{
-	display: inline;
-	padding-left: 10px;
+	display: inline-block;
 	border-radius:50%;
-	background-color: #00B3E1;
+	margin-left: 10px;
+	background-color: #00408f;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	cursor:pointer;
 }
-
-
-
-#imgs_ul li a{
-	color:  white;
-}
-
-
-
-#li_1:hover{ }
 
 
 /*<!--公司信息-->*/
@@ -203,6 +197,7 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 		border-width: 1px;
 		float: left;
 		transition: 0.5s;
+		position: relative;
 	}
 	/*产品信息图片*/
 	#tu2{
@@ -257,12 +252,41 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 	height: 500px;
 	background-color: #f2f4f6;
 }
-#tupian{width: 100%;height:300px;background-color: #00B3E1;}
-#tupian img{float: left;}
-#tupian p{opacity:0.5;position: absolute;}
-#beijing{height:300px;width:268px;margin-left: 5px;background-color:red ;float: left;}
-#beijing :hover{opacity: 0.5;}
-#beijing :hover #neiwenzi {opacity: 0;}
+/*图片一*/
+#tupian{width: 100%;height:300px;position: relative;/*background-color: #00B3E1*/;transition: 0.5s;}
+#tupian img{float: left;transition: 0.5;position: relative;}
+#tupian1{height: 300px;width: 268px;float: left;transition: 0.5s;cursor: pointer;margin-left: 5px;}
+
+#beijing1{height: 300px;width: 268px;background-color: #27b2e1;position: absolute;opacity: 0;transition: 0.5s;}
+
+#neiwenzi{height: 300px;width: 268px;opacity:0;transition: 0.3s;color: white;position: absolute;transform: 0.5s}
+#neiwenzi h3{text-align: center;margin-top: 55px;}
+#neiwenzi p{font-size: 12px;margin-left: 30px;margin-right: 30px;text-align: center;}
+#neiwenzi h4{position: absolute;bottom: 73px;left: 105px;font-size: 23px;}
+/*上*/
+#shang{width: 100px;height: 3px;background-color: white;position: absolute;bottom: 100px;left:34px;transition: 0.5s;}
+/*下*/
+#xia{width: 100px;height: 3px;background-color: white;position: absolute;bottom: 70px;left:134px;transition: 0.5s;}
+/*左*/
+#zuo{width: 3px;height: 33px;background-color: white;position: absolute;bottom: 120px;left:84px;transition: 0.5s;}
+/*右*/
+#y{width: 3px;height: 33px;background-color: white;position: absolute;bottom: 20px;left:184px;transition: 0.5s;}
+
+/*触发渐变效果*/
+#tupian :hover #beijing1{opacity: 0.7;}
+#tupian :hover #beijing2{opacity: 0.7;}
+#tupian :hover #neiwenzi{opacity: 1;}
+#tupian :hover #shang{left:84px}
+#tupian :hover #xia{left:84px}
+#tupian :hover #zuo{bottom: 70px;}
+#tupian :hover #y{bottom:70px}
+
+/*图片二*/
+
+
+
+
+
 
 #view_div_p1{
 	text-align: center;
@@ -370,7 +394,7 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 	align-items: center;
 	display: -webkit-flex;
 	transition: 0.5s;
-	
+	cursor:pointer;
 }
 /*公司新闻,浅蓝色*/
 #news_blue:hover{
@@ -394,6 +418,7 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 	align-items: center;
 	display: -webkit-flex;
 	transition: 0.5s;
+	cursor:pointer;
 }
 #news_blue2:hover{
 	width: 165px;

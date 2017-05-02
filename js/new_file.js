@@ -42,35 +42,35 @@
 //1.2.3
 		function change1(){
 			var p = document.getElementById("a1");
-			p.style.backgroundColor ="#00B3E1";
+			p.style.backgroundColor ="#888888";
 		}
 		
 		function change11(){
 			var p = document.getElementById("a1");
-			p.style.backgroundColor = "#888888";
+			p.style.backgroundColor = "#00408f";
 			
 		}
 		
 		
 		function change2(){
 			var p = document.getElementById("a2");
-			p.style.backgroundColor ="#00B3E1";
+			p.style.backgroundColor ="#888888";
 		}
 		
 		function change22(){
 			var p = document.getElementById("a2");
-			p.style.backgroundColor = "#888888";
+			p.style.backgroundColor = "#00408f";
 			
 		}
 
 			function change3(){
 			var p = document.getElementById("a3");
-			p.style.backgroundColor ="#00B3E1";
+			p.style.backgroundColor ="#888888";
 		}
 		
 		function change33(){
 			var p = document.getElementById("a3");
-			p.style.backgroundColor = "#888888";
+			p.style.backgroundColor = "#00408f";
 			
 		}
 
@@ -124,7 +124,7 @@ function gd1(){
 		var c = document.getElementById("news_blue")
 	var d = document.getElementById("news_blue2")
 	c.style.width="151px";
-	d.style.width="166px";
+	d.style.width="167px";
 }
 
 function gd2(){
@@ -132,19 +132,9 @@ function gd2(){
 	a.style.top="0px";
 	var c = document.getElementById("news_blue")
 	var d = document.getElementById("news_blue2")
-	c.style.width="166px";
+	c.style.width="167px";
 	d.style.width="151px";
 }
-
-function gd4(){
-	
-}
-
-
-
-
-
-
 
 
 function you(){

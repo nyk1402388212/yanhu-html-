@@ -1,0 +1,112 @@
+*{margin: 0px;padding: 0px;}
+
+/*<!--头部信息-->*/
+#header{height: 103px;background-color: white;}
+	/*<!--头部图片-->*/
+#header_img{position: absolute;left: 205px;top: 16px;}
+/*咨询电话div*/
+#header_div1{height: 32px;width: 200px;position: absolute;right: 225px;top: 16px;}
+
+#header_div1_img{width:34px;height: 35px;float: left;}
+
+/*咨询电话*/
+#header_div1_p1{color: #888888;font-size: 12px;}
+/*0979-8463599*/
+#header_div1_p2{color: #00b3e1;font-size: 19px;font-weight:900;}
+
+/*首页*/
+#header_ul{	padding-bottom: 13px;width: 700px;position: absolute;right: 205px;top: 67px;
+}
+
+#header_ul li{display: inline;padding-left: 15px;padding-right: 15px;padding-bottom: 14px;float: left;border-bottom: solid;border-width: 1px;border-bottom-color: #00BFFF;position: relative;}
+
+/*优化超链接字体*/
+li a {text-decoration:none;color: black;transition: 0.5s;} 
+/**/
+#lianxi span{left:0;top: 32px;height: 3px;width: 100%;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;} #lianxi a{color:#00b3e1 ;}
+#xinwen span,#guanyu span,#chanping span, #qixia span,#liuyan span,#shouye span{left:50%;top: 32px;height: 3px;width: 0;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;}
+
+ /*触发过度效果*/
+   #shouye:hover span{width:100%;left: 0px;}
+   #shouye:hover a{color:#00b3e1 ;}
+  #guanyu:hover span{width:100%;left: 0px;}
+    #guanyu:hover a{color:#00b3e1 ;}
+   #xinwen:hover span{width:100%;left: 0px;}
+     #xinwen:hover a{color:#00b3e1 ;}
+  #chanping:hover span{width:100%;left: 0px;}
+    #chanping:hover a{color:#00b3e1 ;}
+  #xinwen:hover span{width:100%;left: 0px;}
+    #xinwen:hover a{color:#00b3e1 ;}
+  #qixia:hover span{width:100%;left: 0px;}
+    #qixia:hover a{color:#00b3e1 ;}
+  #liuyan:hover span{width:100%;left: 0px;}
+    #liuyan:hover a{color:#00b3e1 ;}
+  #lianxi:hover span{width:100%;left: 0px;}
+   #lianxi:hover a{color:#00b3e1 ;}
+  
+/*联系我们*/
+#womeng {width: 235px; margin-left: 205px;margin-top: -95px;}
+#womeng img{box-shadow: 0px 5px 0px #e9e9e9;}
+
+/*联系我们*/
+#lianxi2{width: 235px;height: 238px;margin-top: 92px;margin-left: 205px;background-color: red;border-top: solid;border-top-color: #00b3e1;box-shadow: 0px 5px 0px #e9e9e9;}
+#lianxi2 h3{background-color: #00b3e1;color: white;padding-top: 10px;padding-bottom: 10px;padding-left: 35px;}
+#lianxi2 img{margin-left: 200px;margin-top: -35px;margin-right:20px ; float: right;}
+#lianxi2 #dianhua{ border-bottom: solid;border-bottom-width: 1px;border-bottom-color: #eaeaea;; padding-top: 18px;padding-bottom: 18px;background-color:#f7f7f7;padding-left: 35px;}
+#lianxi2 #dianhua p{font-size: 15px;}
+#lianxi2 #dianhua h2{color: #00b3e1;}
+
+/*在线留言*/
+#lianxi2 #zaixian{padding-left: 63px;padding-top: 23px;padding-bottom: 35px;background-color:#f7f7f7; ;}
+#lianxi2 #zaixian p{margin-bottom: 5px;}
+#lianxi2 #zaixian h4 a{font-size: 15px;font-weight: 100 ;color: white;background-color:#00b3e1;text-decoration: none;padding:5px 18px;}
+
+/*正文内容*/
+#zhengwen{margin-top: -380px;margin-bottom: 0px;margin-left: 490px;margin-right: 230px;margin-bottom: 200px;}
+
+#zhengwen img{display: inline;}
+/*正文标题*/
+#zhengwen img{margin-right: 8px;}
+#zhengwen h3{color:#00408f;margin-left: 0px;padding-bottom: 15px;margin-top: -27px;border-bottom: solid;border-bottom-color: #eaeaea;border-bottom-width: 1px;}
+#zhengwen span{padding-bottom: 15px;border-bottom: solid;border-bottom-width: 1px;border-bottom-color: #00408f;}
+
+/*目录*/
+#zhengwen #mulu {margin-top: -37px;margin-left: 680px;}
+#zhengwen #mulu a{color: #B0B0B0;text-decoration: none;font-size: 12px;}
+
+#zhengwen #ditu{width: 100%;height: 550px;margin-top: 50px;background-color: cyan;}
+#zhengwen h2{color: #00b3e1;margin-top: 40px;}
+#zhengwen pre{margin-left:-200px;  font-size: 17px;font-weight: 800;}
+
+/*结尾*/
+#end{height: 219px;background-color: #00b3e1;margin-top: -180px;}
+/*logo*/
+#end_img{margin-left: 270px;margin-top: 40px;float: left;}
+
+#end_address{height: 219px;width: 250px;float: left;margin-left: 60px;}
+
+#end_address h3{padding-top: 60px;font-size: 14px;color: white;}
+
+#end_address p{
+	font-size: 12px;
+	color: white;
+}
+#end_address img{
+	margin-top: 15px;
+}
+#end_address h4{color: white;margin-left: 25px;margin-top: -26px;font-weight: 900;}
+/*二维码*/
+#end_img2{margin-right:246px;margin-top: 60px;float: right;}
+
+
+/*last*/
+#last{height: 35px;width: 100%;background-color: #00408f;position: relative;}
+
+#last ul{position: absolute;left: 270px;top: -55px;width:85px;list-style: none;display: none;background-color: white;}
+
+#you{border: solid;border-width: 1px;padding-left: 10px;padding-right: 26px;border-color:white ;position: relative;top: 3px;left: 270px;color: white;text-decoration: none;font-size: 12px;}
+
+#last p{margin-left: 950px;margin-top: -12px;font-size: 12px;color:white;}
+
+
+

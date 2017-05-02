@@ -1,0 +1,583 @@
+*{margin: 0px;padding: 0px;}
+
+/*<!--头部信息-->*/
+#header{height: 103px;background-color: white;}
+	/*<!--头部图片-->*/
+#header_img{position: absolute;left: 205px;top: 16px;}
+/*咨询电话div*/
+#header_div1{height: 32px;width: 200px;position: absolute;right: 225px;top: 16px;}
+
+#header_div1_img{width:34px;height: 35px;float: left;}
+
+/*咨询电话*/
+#header_div1_p1{color: #888888;font-size: 12px;}
+/*0979-8463599*/
+#header_div1_p2{color: #00b3e1;font-size: 19px;font-weight:900;}
+
+/*首页*/
+#header_ul{	padding-bottom: 13px;width: 700px;position: absolute;right: 205px;top: 67px;
+}
+
+#header_ul li{display: inline;padding-left: 15px;padding-right: 15px;padding-bottom: 14px;float: left;border-bottom: solid;border-width: 1px;border-bottom-color: #00BFFF;position: relative;}
+
+/*优化超链接字体*/
+li a {text-decoration:none;color: black;transition: 0.5s;} 
+/**/
+#shouye span{left:0;top: 32px;height: 3px;width: 100%;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;} #shouye a{color:#00b3e1 ;}
+#xinwen span,#guanyu span,#chanping span, #qixia span,#liuyan span,#lianxi span{left:50%;top: 32px;height: 3px;width: 0;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;}
+
+ /*触发过度效果*/
+   #shouye:hover span{width:100%;left: 0px;}
+   #shouye:hover a{color:#00b3e1 ;}
+  #guanyu:hover span{width:100%;left: 0px;}
+    #guanyu:hover a{color:#00b3e1 ;}
+   #xinwen:hover span{width:100%;left: 0px;}
+     #xinwen:hover a{color:#00b3e1 ;}
+  #chanping:hover span{width:100%;left: 0px;}
+    #chanping:hover a{color:#00b3e1 ;}
+  #xinwen:hover span{width:100%;left: 0px;}
+    #xinwen:hover a{color:#00b3e1 ;}
+  #qixia:hover span{width:100%;left: 0px;}
+    #qixia:hover a{color:#00b3e1 ;}
+  #liuyan:hover span{width:100%;left: 0px;}
+    #liuyan:hover a{color:#00b3e1 ;}
+  #lianxi:hover span{width:100%;left: 0px;}
+   #lianxi:hover a{color:#00b3e1 ;}
+  
+  
+
+
+
+
+
+/*<!--轮播图片-->*/
+#imgs{
+	height: 503px;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	background-repeat: no-repeat;
+	background-image:url(../img/banner1.jpg) ;
+}
+
+
+
+/*@keyframes jiantouz{
+	0%{left: 300px;top:270px;opacity: 0;}
+	25%{left:250px;top:270px;opacity: 0.25;}
+	50%{left: 200px;top: 270px;opacity: 0.5;}
+	75%{left:150px;top:270px;opacity: 0.75;}
+	100%{left:125px;top: 270px;opacity: 1;}
+}*/
+
+
+/*左箭头*/
+#change2{
+	position: absolute;
+	opacity: 0;
+	left: 300px;
+	top:270px;
+	font-size: 75px;
+	transition: 1s ;
+}
+
+#imgs:hover #change2{
+	opacity: 1;
+	left: 125px;
+}
+
+
+#change2 a{
+	text-decoration: none;
+	color: #F2F4F6;
+}
+
+
+/*右箭头*/
+#change1 {
+	position: absolute;
+	right: 300px;
+	top: 270px;
+	transition: 1s;
+	opacity: 0;
+}
+
+#imgs:hover #change1{
+	opacity: 1;
+	right: 125px;
+}
+
+#change1 a {
+	font-size: 75px;
+	text-decoration: none;
+	color:#F2F4F6 ;
+}
+/*1.2.3.*/
+#imgs_ul{
+	position: absolute;
+	padding-right: 5px;
+	left: 700px;
+	top: 570px;
+	text-align: center;
+}
+
+#imgs_ul li{
+	display: inline;
+	padding-left: 10px;
+	border-radius:50%;
+	background-color: #00B3E1;
+}
+
+
+
+#imgs_ul li a{
+	color:  white;
+}
+
+
+
+#li_1:hover{ }
+
+
+/*<!--公司信息-->*/
+	#massage{
+		height: 370px;
+		background-color:  white;
+		/*padding-top: 91px;*/
+	}
+	
+
+/*公司简介*/
+	#massage_div1{
+		height: 187px;
+		width: 534px;
+		margin-top: 91px;
+		margin-left: 205px;
+		border-style: solid;
+		border-width: 1px;
+		/*向左浮动*/
+		float: left;
+		background-color: white;
+		transition: 0.5s;
+		position: relative;
+	}
+	/*公司简介小图片div*/
+	#tu{
+		height: 64px;
+		width: 64px;
+		background-image:url(../img/about_bg.png);
+		float: left;
+		margin-top: 60px;
+		margin-left: 60px;
+		background-position: 0% 0%;
+	}
+	/*公司简介文字div*/
+	#text{
+		float: left;
+		height: 210px;
+		width: 310px;
+		margin-top: 30px;
+		margin-left: 60px;
+	}
+	/*公司简介字体设置*/
+	#massage_div1 a{
+		text-decoration: none;
+		color: #b0b0b0;
+	}
+	/*触发效果*/
+	#massage_div1:hover{
+		background-color: #00408f;
+		color: white;
+		margin-top: 75px;
+	}
+	/*触发massage_div1，改变tu*/
+ #massage_div1:hover #tu{background-position:0 -64px}
+
+
+/*产品信息*/
+	#massage_div2{
+		margin-left: 34px;
+		margin-top: 91px;
+		height: 187px;
+		width: 534px;
+		border-style:solid;
+		border-width: 1px;
+		float: left;
+		transition: 0.5s;
+	}
+	/*产品信息图片*/
+	#tu2{
+		background-image: url(../img/about_bg.png);
+		background-position: 64px 128px;
+		height: 64px;
+		width: 64px;
+		float: left;
+		margin-top: 60px;
+		margin-left: 60px;
+	}
+	/*产品信息文字*/
+	#text2{
+		width: 310px;
+		height: 210px;
+		margin-left: 60px;
+		margin-top: 30px;
+		float: left;
+		text-decoration: none;
+		color: black;
+	}
+	/*产品信息详细信息*/
+	#text2 a{
+		text-decoration: none;
+		color: #b0b0b0;
+	}
+	/*触发效果*/
+	#massage_div2:hover{
+		background-color: #00408f;
+		margin-top: 75px;
+	}
+	#massage_div2:hover #text2{
+		color: white;
+	}
+	#massage_div2:hover #tu2{
+		background-position:100% 100%;
+	}
+	
+/*盐湖风光*/
+#view{
+		background-color: #f2f4f6;
+		height:500px;
+		padding-top: 75px;
+	}
+	
+	
+	
+/*图片和文字的div*/
+#view_div{
+	margin-left: 205px;
+	margin-right: 205px;
+	height: 500px;
+	background-color: #f2f4f6;
+}
+#tupian{width: 100%;height:300px;background-color: #00B3E1;}
+#tupian img{float: left;}
+#tupian p{opacity:0.5;position: absolute;}
+#beijing{height:300px;width:268px;margin-left: 5px;background-color:red ;float: left;}
+#beijing :hover{opacity: 0.5;}
+#beijing :hover #neiwenzi {opacity: 0;}
+
+#view_div_p1{
+	text-align: center;
+}
+
+#view_div_p2{
+	text-align: center;
+}
+
+/*图片设置*/
+
+#view_div img{
+	/*margin-left: 5px;*/
+}
+
+/*左箭头*/
+#view_chang1 {
+	position: relative;
+	left: 175px;
+	top: -310px;
+}
+/*右箭头*/
+#view_chang2 {
+	position: relative;
+	left: 1290px;
+	top: -310px;
+}
+/*查看更多*/
+#view_a{
+	position: relative;
+	top: -130px;
+	left: 620px;
+	text-decoration: none;
+	color: black;
+	padding-left:50px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid;
+	border-width: 1px;
+	transition: 0.5s;
+}
+#view_a:hover{
+	background-color: #1ab1e1;
+}
+
+
+
+/*新闻中心*/
+#news{
+	height: 617px;
+	background-color: white;
+}
+/*新闻中心内容div*/
+#news_div{
+	margin-left: 205px;
+	padding-top: 80px;
+	margin-right: 205px;
+	background-color: white;
+	height: 537px;
+}
+/*新闻中心*/
+#news_p{
+	text-align: center;
+	font-size: 20px;
+}
+/*news*/
+#news_p2{
+	color: #26b9e3;
+	text-align: center;
+	font-size: 17px;
+}
+/*<!--新闻动态div-->*/
+#news_div_div1{
+	background-color: white;
+	width:185px;
+	height: 340px;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	margin-top:40px;
+}
+/*<!--新闻动态灰色div-->*/
+#news_div_div1_div17{
+	height: 340px;
+	width: 185px;
+	background-color: #3f434c;
+}
+
+#news_div_div1_div17 p{
+	margin-left:20px;
+	font-size: 20px;
+	color: white;
+}
+
+
+/*公司新闻,浅蓝色*/
+#news_blue{
+	margin-left:20px;
+	margin-top: 20px;
+	height: 88px;
+	width: 151px;
+	background-color: #00b3e1;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-flex;
+	transition: 0.5s;
+	
+}
+/*公司新闻,浅蓝色*/
+#news_blue:hover{
+	width:165px;
+}
+
+#news_blue a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*行业动态*/
+#news_blue2{
+	margin-left:20px;
+	margin-top: 10px;
+	height: 88px;
+	width: 151px;
+	background-color: #00408f;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-flex;
+	transition: 0.5s;
+}
+#news_blue2:hover{
+	width: 165px;
+}
+
+#news_blue2 a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+/*新闻文本框 外框*/
+#news_text{
+	width:475px;
+	height: 340px;
+	margin-top: 40px;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	position: relative;
+	overflow: hidden;
+}
+/*新闻文本框 内文字框*/
+#news_text0{
+	position: relative;
+	top: 0px;
+	transition: 1s;
+}
+
+/*#news_text1{border-left: solid; border-color: #00BFFF;border-width: 10px;background-color: red;}*/
+/*h5标题*/
+#news_text h5{
+	margin-top: 33px;
+	color: #15b9e3;
+	margin-left: 25px;
+}
+
+#news_text p{
+	margin-top: 23px;
+	margin-left: 25px;
+	color: #666666;
+	font-size: 12px;
+}
+#news_text a{
+	color:black;
+	text-decoration: none;
+	transition: 0.5s;
+}
+#news_text a:hover{
+	color: deepskyblue;
+}
+/*两段文字的ul*/
+#news_text ul{
+	margin-left: 25px;
+	margin-top: 35px;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+/*青海高端盐湖科技有限公司董事长视察工地及水源...*/
+#news_text li{
+	margin-top: 32px;
+	margin-left: 15px;
+	transition: 0.5s;
+}
+
+#news_text1 ul+ul{
+	position: absolute;
+	right: 5px;
+	top: 45px;
+	list-style-type: none;
+}
+
+
+
+/*查看更多*/
+#gengduoa1 {
+	position: absolute;
+	text-align: center;
+	border: solid;
+	border-width: 1px;
+	border-color: #26B9E3;
+	color: #26B9E3;
+	right: 8px;
+	top: 250px;
+	padding-left:15px ;
+	padding-right: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#gengduoa1:hover{
+	background-color: #00408f;
+	color: white;
+}
+
+#gengduoa2 {
+	position: absolute;
+	text-align: center;
+	border: solid;
+	border-width: 1px;
+	border-color: #26B9E3;
+	color: #26B9E3;
+	right: 8px;
+	top: 250px;
+	padding-left:15px ;
+	padding-right: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#gengduoa2:hover{
+	background-color: #00408f;
+}
+
+
+/*行业动态内容*/
+#news_text2{
+position: relative;
+	top:63px;
+	left:0x;
+	border-left: solid;
+	border-width: 2px;
+	border: red;
+}
+
+#news_text2 ul+ul{
+	position: absolute;
+	right: 20px;
+	top: 42px;
+	list-style-type: none;
+	
+}
+
+
+
+/*<!--视频播放div-->*/
+#news_div_div2{
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 420px;
+	height: 340px;
+	border: solid;
+	border-width: 1px;
+	float: left;
+}
+
+#news_div_div2 p{
+	text-align: center;
+}
+#news_div_div2 p+p{
+	color: #b0b1b4;
+}
+
+/*结尾*/
+#end{height: 219px;background-color: #00b3e1;}
+/*logo*/
+#end_img{margin-left: 270px;margin-top: 40px;float: left;}
+
+#end_address{height: 219px;width: 250px;float: left;margin-left: 60px;}
+
+#end_address h3{padding-top: 60px;font-size: 14px;color: white;}
+
+#end_address p{
+	font-size: 12px;
+	color: white;
+}
+#end_address img{
+	margin-top: 15px;
+}
+#end_address h4{color: white;margin-left: 25px;margin-top: -26px;font-weight: 900;}
+/*二维码*/
+#end_img2{margin-right:246px;margin-top: 60px;float: right;}
+
+
+/*last*/
+#last{height: 35px;width: 100%;background-color: #00408f;position: relative;}
+
+#last ul{position: absolute;left: 270px;top: -55px;width:85px;list-style: none;display: none;background-color: white;}
+
+#you{border: solid;border-width: 1px;padding-left: 10px;padding-right: 26px;border-color:white ;position: relative;top: 3px;left: 270px;color: white;text-decoration: none;font-size: 12px;}
+
+#last p{margin-left: 950px;margin-top: -12px;font-size: 12px;color:white;}
+
+/*#you:hover#you1,#you2,#you3{
+	display: block;
+}*/

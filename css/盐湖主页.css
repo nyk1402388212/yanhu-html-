@@ -52,6 +52,7 @@ li a {text-decoration:none;color: black;transition: 0.5s;}
 
 /*<!--轮播图片-->*/
 #imgs{
+	cursor:pointer;
 	height: 503px;
 	background-size: 100%;
 	-webkit-background-size: 100%;

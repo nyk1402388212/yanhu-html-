@@ -24,7 +24,7 @@
 li a {text-decoration:none;color: black;transition: 0.5s;} 
 /**/
 #liuyan span{left:0;top: 32px;height: 3px;width: 100%;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;} #liuyan a{color:#00b3e1 ;}
-#xinwen span,#guanyu span,#shouye span, #chanping span,#liuyan span,#qixia span{left:50%;top: 32px;height: 3px;width: 0;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;}
+#xinwen span,#guanyu span,#shouye span, #chanping span,#lianxi span,#qixia span{left:50%;top: 32px;height: 3px;width: 0;transition: 0.5s;position: absolute;display:block;background:#00b3e1;bottom:0;}
 
  /*触发过度效果*/
    #shouye:hover span{width:100%;left: 0px;}
